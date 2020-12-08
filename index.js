@@ -46,10 +46,10 @@ $("#start").click(function () {
         ipAddress = $('#ipAddress').val();
         let url = "";
         if ($('#option1').is(":checked")) {
-            url = "https://"+ipAddress+":5000/peanuts";
+            url = "http://"+ipAddress+":5000/peanuts";
         }
         else {
-            url = "https://"+ipAddress+":5000/groundpeanuts";
+            url = "http://"+ipAddress+":5000/groundpeanuts";
         }
 
         // Call prediction API
